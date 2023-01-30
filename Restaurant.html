@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Restaurant 
+		</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+		<style>
+			:root{
+				--primary: #ebe3cd;
+				--secondary: #f9f7ef;
+				--tursory: #12202f;
+				--footer: #fa9b2f;
+				--footer-text: #fff;
+				--button-primary: #df571d;
+				--text-primary: #fff;
+				--text-secondary: #df571d;
+				--text-tursory: #000;
+			}
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+				background-color: #ebe3cd;
+			}
+			.container{
+				max-width: 1380px;
+				margin: 0px auto;
+			}
+			.header{
+				width: 1380px;
+				margin: 0px auto;
+				background-color: #12202f;
+				color: #fff;
+				padding: 20px;
+				border-radius: 25px;
+				margin-top: 5%;
+			}
+			.logo{
+				width: 25%;
+				font-size: 18px;
+				font-weight: 700;
+				margin-left: 80px;
+			}
+			.flex{
+				display: flex;
+				justify-content: space-evenly;
+			}
+			.navigation-bar{
+				width:50%;
+				color: var(--text-primary);
+				font-size: 18px;
+			}
+			.button{
+				width: 25%;
+				text-align: right;
+				font-size: 18px;
+				color: #6bb99c;
+				margin-right: 40px;
+				cursor: pointer;
+			}
+			.eat-drink-section{
+				background-image: url(section-one-bg.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+			.head-text{
+				width: 600px;
+				font-size: 81px;
+				color: #12202f;
+				font-weight: 900;
+				font-family: "Playfair Display";
+				padding-top: 5%;
+			}
+			.sub-head-text{
+				font-size: 29px;
+				font-weight: 700;
+				line-height: 40px;
+				color: #12202f;
+				font-family: "Montserrat";
+				padding-top: 2%;
+				padding-bottom: 2%;
+			}
+			.eat-drink-section p{
+				width: 420px;
+				font-size: 17px;
+				font-weight: 700;
+				line-height: 31px;
+				color: #12202f;
+				font-weight: 600;
+				font-family: "Montserrat";
+				text-align: left;
+			}
+			.two-buttons{
+				width: 900px;
+				display: flex;
+			}
+			.button-one{
+				width: 100px;
+				background-color: var(--button-primary);
+				text-align: center;
+				padding: 12px;
+				border-radius: 20px;
+				color: var(--text-primary);
+				font-size: 18px;
+				font-weight: 700;
+				margin-top: 6%;
+				cursor: pointer;
+			}
+			.button-one:hover{
+				background-color: #12202f;
+				color: var(--text-primary);
+			}
+			.button-two{
+				width: 100px;
+				background-color: #ebe3cd;
+				text-align: center;
+				padding: 12px;
+				border-radius: 20px;
+				font-size: 18px;
+				font-weight: 700;
+				margin-top: 6%;
+				cursor: pointer;
+			}
+			.book-table-text{
+				font-size: 16px;
+				font-weight: 700;
+				padding-top: 10%;
+			}
+			.table-back-div{
+				box-sizing:border-box;
+				width:100%;
+				padding:20px 55px 45px;
+				background-color:#f9f7ef;
+				border-radius:30px;
+				display:flex;
+				justify-content:space-between;
+				margin: 50px auto 50px;
+			}
+			.delicious-text{
+				width: 100%;
+				text-align: center;
+				font-size: 20px;
+				font-weight: 700;
+				color: var(--text-secondary);
+			}
+			.appt{
+				width:70%;
+				display:flex;
+				justify-content:space-between;
+			}
+			.date-div{
+				width:28%;
+			}
+			.mail-div{
+				width:36%;
+			}
+			.avaibility{
+				width:25%;
+				cursor: pointer;
+			}
+			label{
+				font-size:21px;
+				color:#000;
+				line-height:42px;
+				font-weight:700;
+				display:block;
+			}
+			input{
+				width: 67%;
+				box-sizing: border-box;
+				border-radius: 20px;
+				font-size: 21px;
+				line-height: 31px;
+				color: #000;
+				font-weight: 600;
+				font-family: "Montserrat";
+				text-align: center;
+				padding: 20px 30px;
+				background-color: var(--primary);
+				outline: 0px;
+				border: 1px solid #000;
+			}
+			.submit-btn{
+				margin-top:40px;
+				outline:0px;
+				border:#000;
+				background:#6bb99c;
+				color:var(--primary);
+			}
+			.delicious-head-text{
+				text-align: center;
+				font-size: 40px;
+				font-weight: 700;
+			}
+			.three-boxes{
+				width: 1380px;
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 100px;
+			}
+			.inner-one{
+				width: 30%;
+				background-color: white;
+				background-color: var(--secondary);
+				border-radius: 24px;
+				margin-top: 5%;
+			}
+			.meat{
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+			.fish{
+				margin-top: 20px;
+				margin-right: 30px;
+				margin-bottom: 20px;
+				margin-left: 80px;
+			}
+			.drinks{
+				margin-top: 40px;
+				margin-bottom: -46px;
+			}
+			h1{
+				font-size: 28px;
+				text-align: center;
+				padding-top: 2%;
+			}
+			.inner-one p{
+				text-align: center;
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 26px;
+				padding-top: 2%;
+			}
+			.button-read-more{
+				width: 100px;
+				margin: 30px auto;
+				background-color: var(--button-primary);
+				padding: 12px 12px;
+				border-radius: 30px;
+				text-align: center;
+				color: var(--text-primary);
+				cursor: pointer;
+			}
+			.button-read-more:hover{
+				background-color: var(--tursory);
+				color: var(--text-primary);
+			}
+			.care-about-section{
+				background-image: url(section-5bg.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				width: 100%;
+				height: 100%;
+				padding-bottom: 500px;
+				margin-top: 200px;
+			}
+			.care-about-subtitle{
+				font-size: 29px;
+				line-height: 40px;
+				color: #6bb99c;
+				font-weight: 700;
+				font-family: "Montserrat";
+				text-align: center;
+			}
+			.care-about-title{
+				font-size: 50px;
+				color: var(--text-tursory);
+				font-weight: 900;
+				font-family: "Playfair Display";
+				text-align: center;
+			}
+			.button-three{
+				width: 100px;
+				margin: 0px auto;
+				padding: 10px 20px;
+				background-color: #6bb99c;
+				color: var(--text-primary);
+				text-align: center;
+				font-size: 16px;
+				font-weight: 700;
+				border-radius: 25px;
+				cursor: pointer;
+			}
+			.button-three:hover{
+				background-color: var(--secondary);
+				color: var(--text-secondary);
+			}
+			.our-restaurant-section{
+				background-color: var(--primary);
+				background-image: url(section-6bg.png);
+				background-size: 50% 100%;
+				background-repeat: no-repeat;
+				background-position: 720px center;
+				padding-bottom: 200px;
+				margin-top: 100px;
+				
+			}
+			.our-restaurant-subtitle{
+				font-size: 29px;
+				line-height: 40px;
+				color: var(--text-secondary);
+				font-weight: 400;
+				font-family: "Montserrat";
+				padding-top: 150px;
+			}
+			.our-restaurant-title{
+				font-size: 50px;
+				color: var(--text-tursory);
+				font-weight: 700;
+				font-family: "Playfair Display";
+			}
+			.our-restaurant-paragaraph{
+				font-size: 20px;
+				line-height: 31px;
+				font-weight: 700;
+				color: var(--text-tursory);
+				padding-top: 10px;
+				text-align: left;
+			}
+			.our-restaurant-section .button-read-more{
+				margin-left: 0px;
+			}
+			.fresh-and-healthy-section{
+				background-color: var(--primary);
+				background-image: url(section-7bg.png);
+				background-size: 50% 70%;
+				background-repeat: no-repeat;
+				background-position: center left;
+				padding-bottom: 100px;
+				margin-left: 20px;
+			}
+			.fresh-section{
+				width: 30%;
+				margin-left: 980px;
+			}
+			.fresh-and-health-subtitle{
+				font-size: 29px;
+				line-height: 40px;
+				color: var(--text-secondary);
+				font-weight: 400;
+				font-family: "Montserrat";
+				padding-top: 150px;
+				
+			}
+			.fresh-and-health-title{
+				font-size: 50px;
+				color: var(--text-tursory);
+				font-weight: 700;
+				font-family: "Playfair Display";
+			}
+			.fresh-and-healthy-section .button-three{
+				margin-left: 0px;
+				margin-top: 20px;
+			}
+			.chef-section{
+				background-color: var(--primary);
+			}
+			.chef-bg-white{
+				background-color: #f9f7ef;
+				width: 1380px;
+				margin: 0px auto;
+				background-image: url(section-8bg.png);
+				background-size: 60% 100%;
+				background-repeat: no-repeat;
+				background-position: 500px center;
+				padding-bottom: 60px;
+				border-radius: 60px;
+			}
+			.chef-subtitle{
+				font-size: 29px;
+				line-height: 40px;
+				color: var(--text-secondary);
+				font-weight: 400;
+				font-family: "Montserrat";
+				padding-top: 100px;
+				padding-left: 50px;
+			}
+			.chef-title{
+				font-size: 50px;
+				color: var(--text-tursory);
+				font-weight: 700;
+				font-family: "Playfair Display";
+				padding-left: 50px;
+			}
+			.chef-section .our-restaurant-paragaraph{
+				padding-left: 50px;
+			}
+			.chef-section .button-read-more{
+				margin-left: 50px;
+			}
+			.customer-section{
+				background-color: var(--primary);
+			}
+			.customer-subtitle{
+				font-size: 29px;
+				line-height: 40px;
+				color: var(--text-secondary);
+				font-weight: 400;
+				font-family: "Montserrat";
+				padding-top: 100px;
+				text-align: center;
+			}
+			.customer-title{
+				font-size: 50px;
+				color: var(--text-tursory);
+				font-weight: 700;
+				font-family: "Playfair Display";
+				text-align: center;
+				padding-bottom: 100px;
+			}
+			.three-white-section{
+				width: 1380px;
+				display: flex;
+				justify-content: space-between;
+			}
+			.white-one{
+				width: 500px;
+				background-color: #f9f7ef;
+				border-radius: 50px;
+				display: flex;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				margin-bottom: 30px;
+			}
+			.man-img{
+				width: 40%;
+			}
+			.img-width{
+				padding-top: 20px;
+				padding-left: 20px;
+			}
+			.main-info{
+				width: 60%;
+			}
+			.info-title{
+				font-size: 29px;
+				color: #12202f;
+				font-weight: 900;
+				font-family: "Playfair Display";
+				display: flex;
+			}
+			.jhon{
+				width: 60%;
+			}
+			.jhon-date{
+				color: lightpink;
+				font-size: 18px;
+				padding-top: 10px;
+				padding-left: 0px;
+			}
+			.white-one .our-restaurant-paragaraph{
+				font-size: 18px;
+				line-height: 24px;
+			}
+			.star{
+				padding-top: 10px;
+			}
+			.one-white-section{
+				width: 1380px;
+			}
+			.one-white-section .white-one{
+				margin: 0px auto 60px;
+			}
+			.form-section{
+				background-image: url(section-10bg.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				padding-bottom: 50px;
+			}
+			.form-subtitle{
+				font-size: 29px;
+				line-height: 40px;
+				color: var(--text-secondary);
+				font-weight: 400;
+				font-family: "Montserrat";
+				padding-top: 100px;
+				text-align: center;
+			}
+			.form-title{
+				font-size: 50px;
+				color: var(--text-tursory);
+				font-weight: 700;
+				font-family: "Playfair Display";
+				text-align: center;
+			}
+			.form{
+				width: 750px;
+				margin: 70px auto;
+			}
+			.name{
+				padding: 20px 700px 20px 50px;
+				border-radius: 50px;
+				background-color: #cbc1a3;
+				border: 1px white  solid;
+				color: #000;
+				font-size: 14px;
+				margin-bottom: 30px;
+			}
+			.message{
+				padding: 20px 700px 150px 50px;
+				border-radius: 30px;
+				background-color: #cbc1a3;
+				border: 1px white  solid;
+				color: #000;
+				font-size: 14px;
+				margin-bottom: 50px;
+			}
+			.form-section .button-three{
+				width: 150px;
+				padding: 14px 20px;
+				font-size: 16px;
+				border: 2px white solid;
+			}
+			footer{
+				background-color: var(--footer);
+			}
+			.footer-three-parts{
+				display: flex;
+			}
+			.footer-part-one{
+				width: 45%;
+			}
+			.footer-part-two{
+				width: 40%;
+			}
+			.footer-part-three{
+				width: 50%;
+			}
+			.footer-part-three .footer-head{
+				text-align: right;
+			}
+			.footer-head{
+				font-size: 32px;
+				font-weight: 700;
+				padding-top: 154px;
+				color: var(--footer-text);
+			}
+			.links{
+				font-size: 22px;
+				line-height: 40px;
+				font-weight: 700;
+				padding-top: 20px;
+				padding-bottom: 50px;
+				color: var(--text-tursory);
+			}
+			.footer-form{
+				padding: 16px 275px 16px 20px;
+				margin-left: 244px;
+				background-color: var(--footer);
+				border: 2px var(--text-tursory) solid;
+				border-radius: 25px;
+				color: var(--footer);
+			}
+			.social-media{
+				display: flex;
+				width: 460px;
+				margin-left: 250px;
+			}
+			.follow-us-text{
+				width: 150px;
+				font-size: 25px;
+				font-weight: 700;
+				color: var(--text-tursory);
+				padding-bottom: 154px;
+			}
+			.icons{
+				width: 300px;
+				display: flex;
+				justify-content: space-between;
+			}
+			.facebook-img{
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+				background-color: #fff;
+				background-image: url(https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-512.png);
+				background-size: 30px 30px;
+				background-position: center center;
+				background-repeat: no-repeat;
+			}
+			.facebook-img:hover{
+				background-image: url(fb_hover.png);
+				background-repeat: no-repeat;
+				background-size: 25px 25px;
+			}
+			.instagram-img{
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+				background-color: #fff;
+				background-image: url(https://cdn3.iconfinder.com/data/icons/social-media-2253/17/Vector-1-512.png);
+				background-size: 30px 30px;
+				background-position: center center;
+				background-repeat: no-repeat;
+			}
+			.instagram-img:hover{
+				background-image: url(insta_hover.png);
+				background-repeat: no-repeat;
+				background-size: 28px 28px;
+			}
+			.you-tube-img{
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+				background-color: #fff;
+				background-image: url(https://cdn0.iconfinder.com/data/icons/social-glyph/30/youtube-480.png);
+				background-size: 30px 30px;
+				background-position: center center;
+				background-repeat: no-repeat;
+			}
+			.you-tube-img:hover{
+				background-image: url(https://cdn2.iconfinder.com/data/icons/social-media-2102/100/social_media_network-19-512.png);
+				background-repeat: no-repeat;
+				background-size: 30px 30px;
+			}
+			.section-form{
+				display:inline;
+				margin: 0px auto;
+			}
+			.anchor{
+				color: #000;
+				text-decoration: none;
+			}
+			.anchor-one{
+				color: #fff;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container flex">
+					<div class="logo">
+						<a href="#" class="anchor-one" >YourLogo</a>
+					</div>
+					<nav class="navigation-bar">
+						<ul type="none"class="flex">
+							<li><a href="#" class="anchor-one">Home</a></li>
+							<li><a href="#" class="anchor-one">Menu</a></li>
+							<li><a href="#" class="anchor-one">About Us</a></li>
+							<li><a href="#" class="anchor-one">Contact</a></li>
+						</ul>
+					</nav>
+					<div class="button">
+						Sign up
+					</div>
+			</div>
+		</header>
+		
+		<div class="container">
+			<section class="eat-drink-section">
+				<div class="head-text">
+					Eat, drink and 
+					Enjoy.
+				</div>
+				<div class="sub-head-text">
+					Your Restaurant Waiting For You
+				</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+				</p>
+				<div class="two-buttons">
+					<div class="button-one">
+						Explore
+					</div>
+					<div class="button-two">
+						See Menu
+					</div>
+				</div>
+				<div class="book-table-text">
+					Book a Table
+				</div>
+			</section>
+			<div class="table-back-div">
+					<div class="appt">
+						<div class="date-div">
+							<form>
+								<label for="date"> Date </label>
+								<input type="date" id="date" class="date">
+							</form>
+						</div>
+						<div class="date-div">
+							<form>
+								<label for="time"> Time </label>
+								<input type="time" id="time" class="time">
+							</form>
+						</div>
+						<div class="mail-div">
+							<form>
+								<label for="mail"> Mail </label>
+								<input type="email" id="mail" placeholder="Enter Your Mail" class="mail">
+							</form>
+						</div>
+						
+					</div>
+					<div class="avaibility">
+						<div class="submit">
+							<form>
+								<input type="submit" value="Cheek Aviability" class="submit-btn">
+							</form>
+						</div>
+					
+					</div>
+				</div>
+		</div >
+			
+				
+			
+			
+			
+			
+			
+			
+			
+		</div>
+		<section class="delicious-section">
+			<div class="container">
+				<div class="delicious-text">
+					Delicious
+				</div>
+				<div class="delicious-head-text">
+					Food Categories
+				</div>
+				<div class="three-boxes">
+					<div class="inner-one">
+						<div class="dish-one">
+							<img src="dish-one.png" width="350px" height="180px" class="meat" />
+						</div>
+						<h1>
+							Meat
+						</h1>
+						<p>
+							Lorem ipsum dolor sit amet,<br/>
+							consectetur adipiscing elit, sed do<br/>
+							eiusmod tempor incididunt ut.
+						</p>
+						<div class="button-read-more">
+							Read More
+						</div>
+					</div>
+					<div class="inner-one">
+						<div class="dish-one">
+							<img src="dish-two.png" width="240px" height="200px" class="fish" />
+						</div>
+						<h1>
+							Fish
+						</h1>
+						<p>
+							Lorem ipsum dolor sit amet, <br/>
+							consectetur adipiscing elit, sed do  <br/>
+							eiusmod tempor incididunt ut.
+						</p>
+						<div class="button-read-more">
+							Read More
+						</div>
+					</div>
+					<div class="inner-one">
+						<div class="dish-one">
+							<img src="dish-three.png" width="420px" height="250px" class="drinks" />
+						</div>
+						<h1>
+							Drinks
+						</h1>
+						<p>
+							Lorem ipsum dolor sit amet, <br/>
+							consectetur adipiscing elit, sed do  <br/>
+							eiusmod tempor incididunt ut.
+						</p>
+						<div class="button-read-more">
+							Read More
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="care-about-section">
+			<div class="container">
+				<div class="care-about-subtitle">
+					COVID-19  Protocol
+				</div>
+				<div class="care-about-title">
+					We care about you
+				</div>
+				<div class="button-three">
+					Read More
+				</div>
+			</div>
+		</section>
+		<section class="our-restaurant-section">
+			<div class="container">
+				<div class="our-restaurant-subtitle">
+					Story
+				</div>
+				<div class="our-restaurant-title">
+					Our Restaurant
+				</div>
+				<div class="our-restaurant-paragaraph">
+					Lorem ipsum dolor sit amet,<br/> 
+					consectetur adipiscing elit, sed do <br/>
+					eiusmod tempor incididunt ut Lorem <br/>
+					ipsum dolor sit amet, consectetur <br/>
+					adipisicing elit, sed do eiusmod <br/>
+					tempor incididunt ut labore et dolore <br/>
+				</div>
+				<div class="button-read-more">
+							Read More
+				</div>
+			</div>
+		</section>
+		<section class="fresh-and-healthy-section">
+			<div class="container">
+				<div class="fresh-section">
+					<div class="fresh-and-health-subtitle">
+						Ingredients
+					</div>
+					<div class="fresh-and-health-title">
+						Fresh and healthy <br/>
+						ingredients
+					</div>
+					<div class="our-restaurant-paragaraph">
+						Lorem ipsum dolor sit amet,<br/> 
+						consectetur adipiscing elit, sed do <br/>
+						eiusmod tempor incididunt ut Lorem <br/>
+						ipsum dolor sit amet, consectetur <br/>
+						adipisicing elit, sed do eiusmod <br/>
+						tempor incididunt ut labore et dolore <br/>
+					</div>
+					<div class="button-three">
+						Read More
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="chef-section">
+			<div class="container">
+				<div class="chef-bg-white">
+					<div class="chef-subtitle">
+						Words from
+					</div>
+					<div class="chef-title">
+						The Chef
+					</div>
+					<div class="our-restaurant-paragaraph">
+						Lorem ipsum dolor sit amet,<br/> 
+						consectetur adipiscing elit, sed do <br/>
+						eiusmod tempor incididunt ut Lorem <br/>
+						ipsum dolor sit amet, consectetur <br/>
+						adipisicing elit, sed do eiusmod <br/>
+						tempor incididunt ut labore et dolore <br/>
+					</div>
+					<div class="button-read-more">
+							Read More
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="customer-section">
+			<div class="container">
+				<div class="customer-subtitle">
+					What our
+				</div>
+				<div class="customer-title">
+					Customers Say
+				</div>
+				<div class="three-white-section">
+					<div class="white-one">
+						<div class="man-img">
+							<img src="Customer-1.png" class="img-width" width="150px" height="150px" />
+						</div>
+						<div class="main-info">
+							<div class="info-title">
+								<div class="jhon">Jhon Smith</div>
+								<div class="jhon-date">
+									Aug/12/21
+								</div>
+							</div>
+							<div class="our-restaurant-paragaraph">
+								Lorem ipsum dolor sit amet,<br/> 
+								consectetur adipiscing elit, sed do <br/>
+								eiusmod tempor incididunt ut."
+							</div>
+							<div class="star">
+								<img src="star.png" width="230px" height="40px" />
+							</div>
+						</div>
+					</div>
+					<div class="white-one">
+						<div class="man-img">
+							<img src="Customer-2.png" class="img-width" width="150px" height="150px" />
+						</div>
+						<div class="main-info">
+							<div class="info-title">
+								<div class="jhon">Sara Jonson</div>
+								<div class="jhon-date">
+									Aug/12/21
+								</div>
+							</div>
+							<div class="our-restaurant-paragaraph">
+								Lorem ipsum dolor sit amet,<br/> 
+								consectetur adipiscing elit, sed do <br/>
+								eiusmod tempor incididunt ut."
+							</div>
+							<div class="star">
+								<img src="star.png" width="230px" height="40px" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="one-white-section">
+					<div class="white-one">
+							<div class="man-img">
+								<img src="Customer-1.png" class="img-width" width="150px" height="150px" />
+							</div>
+							<div class="main-info">
+								<div class="info-title">
+									<div class="jhon">Jhon Smith</div>
+									<div class="jhon-date">
+										Aug/12/21
+									</div>
+								</div>
+								<div class="our-restaurant-paragaraph">
+									Lorem ipsum dolor sit amet,<br/> 
+									consectetur adipiscing elit, sed do <br/>
+									eiusmod tempor incididunt ut."
+								</div>
+								<div class="star">
+									<img src="star.png" width="230px" height="40px" />
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="form-section">
+			<div class="container">
+				<div class="form-subtitle">
+					Subscirbe
+				</div>
+				<div class="form-title">
+					To Our Newsletter
+				</div>
+				<div class="section-form">
+					<form>
+						<input type="text" placeholder="NAME" class="name"/>
+						<input type="text" placeholder="MAIL" class="name"/>
+						<input type="text" placeholder="MESSAGE" class="message"/>
+					</form>
+				</div>
+				<div class="button-three">
+						SEND MESSAGE
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="footer-three-parts">
+					<div class="footer-part-one">
+						<div class="footer-head">
+							About
+						</div>
+						<ul type="none" class="links">
+							<li><a href="#" class="anchor">History</a></li>
+							<li><a href="#" class="anchor">Our Team</a></li>
+							<li><a href="#" class="anchor">Mission Statement</a></li>
+							<li><a href="#" class="anchor">Terms & Condition</a></li>
+							<li><a href="#" class="anchor">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="footer-part-two">
+						<div class="footer-head">
+							What we do
+						</div>
+						<ul type="none" class="links">
+							<li><a href="#" class="anchor">News and stories</a></li>
+							<li><a href="#" class="anchor">Publications</a></li>
+							<li><a href="#" class="anchor">Take action</a></li>
+							<li><a href="#" class="anchor">Recomendations</a></li>
+							<li><a href="#" class="anchor">Help</a></li>
+						</ul>
+					</div>
+					<div class="footer-part-three">
+						<div class="footer-head">
+							Sign Up To Receive<br/>
+							Our Newsletter
+						</div>
+						<form class="form">
+							<input type="text" placeholder="" class="footer-form"/>
+						</form>
+						<div class="social-media">
+							<div class="follow-us-text">
+								 Follow us!
+							</div>
+							<div class="icons">
+								<div class="facebook-img">
+								
+								</div>
+								<div class="instagram-img">
+								
+								</div>
+								<div class="you-tube-img">
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

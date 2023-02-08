@@ -30,8 +30,10 @@
 			body{
 				background-color: #ebe3cd;
 			}
+			
 			.container{
 				max-width: 1380px;
+				width: 100%;
 				margin: 0px auto;
 			}
 			.header{
@@ -174,16 +176,16 @@
 				display:block;
 			}
 			input{
-				width: 67%;
+				width: 100%;
 				box-sizing: border-box;
 				border-radius: 20px;
-				font-size: 21px;
+				font-size: 24px;
 				line-height: 31px;
 				color: #000;
 				font-weight: 600;
 				font-family: "Montserrat";
 				text-align: center;
-				padding: 20px 30px;
+				padding: 30px 30px;
 				background-color: var(--primary);
 				outline: 0px;
 				border: 1px solid #000;
@@ -216,38 +218,41 @@
 			.meat{
 				margin-top: 40px;
 				margin-bottom: 20px;
+				margin-left: 100px;
 			}
 			.fish{
-				margin-top: 20px;
+				margin-top: 30px;
 				margin-right: 30px;
 				margin-bottom: 20px;
 				margin-left: 80px;
 			}
 			.drinks{
-				margin-top: 40px;
-				margin-bottom: -46px;
+				margin-top: 0px;
+				margin-bottom: -106px;
 			}
 			h1{
-				font-size: 28px;
+				font-size: 38px;
 				text-align: center;
 				padding-top: 2%;
 			}
 			.inner-one p{
 				text-align: center;
-				font-size: 18px;
+				font-size: 22px;
 				font-weight: 700;
-				line-height: 26px;
+				line-height: 36px;
 				padding-top: 2%;
 			}
 			.button-read-more{
-				width: 100px;
+				width: 150px;
 				margin: 30px auto;
 				background-color: var(--button-primary);
-				padding: 12px 12px;
+				padding: 14px 12px;
 				border-radius: 30px;
 				text-align: center;
 				color: var(--text-primary);
 				cursor: pointer;
+				font-size: 18px;
+				font-weight: 700;
 			}
 			.button-read-more:hover{
 				background-color: var(--tursory);
@@ -276,6 +281,7 @@
 				font-weight: 900;
 				font-family: "Playfair Display";
 				text-align: center;
+				padding-bottom: 30px;
 			}
 			.button-three{
 				width: 100px;
@@ -490,13 +496,15 @@
 				font-weight: 700;
 				font-family: "Playfair Display";
 				text-align: center;
+				padding-bottom: 60px;
 			}
 			.form{
 				width: 750px;
 				margin: 70px auto;
 			}
 			.name{
-				padding: 20px 700px 20px 50px;
+				width: 1000px;
+				padding: 20px 00px 20px 50px;
 				border-radius: 50px;
 				background-color: #cbc1a3;
 				border: 1px white  solid;
@@ -538,22 +546,23 @@
 				text-align: right;
 			}
 			.footer-head{
-				font-size: 32px;
+				font-size: 42px;
 				font-weight: 700;
 				padding-top: 154px;
 				color: var(--footer-text);
 			}
 			.links{
-				font-size: 22px;
-				line-height: 40px;
+				font-size: 32px;
+				line-height: 60px;
 				font-weight: 700;
 				padding-top: 20px;
 				padding-bottom: 50px;
 				color: var(--text-tursory);
 			}
 			.footer-form{
-				padding: 16px 275px 16px 20px;
-				margin-left: 244px;
+				width: 400px;
+				margin-left: 300px;
+				padding: 16px 125px 16px 20px;
 				background-color: var(--footer);
 				border: 2px var(--text-tursory) solid;
 				border-radius: 25px;
@@ -565,14 +574,14 @@
 				margin-left: 250px;
 			}
 			.follow-us-text{
-				width: 150px;
-				font-size: 25px;
+				width: 200px;
+				font-size: 35px;
 				font-weight: 700;
 				color: var(--text-tursory);
 				padding-bottom: 154px;
 			}
 			.icons{
-				width: 300px;
+				width: 250px;
 				display: flex;
 				justify-content: space-between;
 			}
@@ -633,6 +642,3218 @@
 				color: #fff;
 				text-decoration: none;
 			}
+			.subscirbe-flex {
+				display: flex;
+				text-align: center;
+				justify-content:center;
+				
+			}
+			
+			
+			
+			@media only screen and (min-width: 420px){
+				.container{
+					box-sizing: border-box;
+					max-width: 1380px;
+					width: 100%;
+					padding: 0px 15px;
+				}
+				.header{
+					width: 100%;
+					margin: 0px auto;
+					background-color: #12202f;
+					color: #fff;
+					box-sizing: border-box;
+					border-radius: 25px;
+					margin-top: 5%;
+				}
+				.logo{
+					width: 25%;
+					font-size: 18px;
+					font-weight: 700;
+					margin-left: -10px;
+				}
+				.flex{
+					display: flex;
+					justify-content: space-evenly;
+				}
+				.navigation-bar{
+					width:50%;
+					color: var(--text-primary);
+					font-size: 0px;
+				}
+				.button{
+					width: 25%;
+					text-align: right;
+					font-size: 0px;
+					color: #6bb99c;
+					margin-right: 40px;
+					cursor: pointer;
+				}
+				.eat-drink-section{
+					background-image: url(section-one-bg.png);
+					background-size: 100% 35%;
+					background-repeat: no-repeat;
+					background-position: center -50px;
+				}
+				.head-text{
+					width: 100%;
+					font-size: 50px;
+					color: #12202f;
+					font-weight: 900;
+					font-family: "Playfair Display";
+					padding-top: 200px;
+				}
+				.sub-head-text{
+					font-size: 18px;
+					font-weight: 600;
+					line-height: 40px;
+					color: #12202f;
+					font-family: "Montserrat";
+					padding-top: 2%;
+					padding-bottom: 2%;
+				}
+				.eat-drink-section p{
+					width: 100%;
+					font-size: 14px;
+					font-weight: 700;
+					line-height: 31px;
+					color: #12202f;
+					font-weight: 600;
+					font-family: "Montserrat";
+					text-align: left;
+				}
+				.two-buttons{
+					width: 100%;
+					display: flex;
+				}
+				.button-one{
+					width: 100px;
+					background-color: var(--button-primary);
+					text-align: center;
+					padding: 12px;
+					border-radius: 20px;
+					color: var(--text-primary);
+					font-size: 18px;
+					font-weight: 700;
+					margin-top: 6%;
+					cursor: pointer;
+				}
+				.button-one:hover{
+					background-color: #12202f;
+					color: var(--text-primary);
+				}
+				.button-two{
+					width: 100px;
+					background-color: #ebe3cd;
+					text-align: center;
+					padding: 12px;
+					border-radius: 20px;
+					font-size: 18px;
+					font-weight: 700;
+					margin-top: 6%;
+					cursor: pointer;
+				}
+				.book-table-text{
+					font-size: 16px;
+					font-weight: 700;
+					padding-top: 10%;
+				}
+				.table-back-div{
+					box-sizing:border-box;
+					width:100%;
+					padding:20px 55px 45px;
+					background-color:#f9f7ef;
+					border-radius:30px;
+					display:flex;
+					flex-direction:column;
+					justify-content:space-between;
+					margin: 50px auto 50px;
+				}
+				.delicious-text{
+					width: 100%;
+					text-align: center;
+					font-size: 20px;
+					font-weight: 700;
+					color: var(--text-secondary);
+				}
+				.appt{
+					width: 100%;
+					display: flex;
+					flex-direction:column;
+				}
+				.date-div{
+					width: 100%;
+				}
+				.mail-div{
+					width: 100%;
+				}
+				.avaibility{
+					width: 100%;
+					cursor: pointer;
+				}
+				label{
+					font-size:21px;
+					color:#000;
+					line-height:42px;
+					font-weight:700;
+					display:block;
+				}
+				input{
+					width: 100%;
+					box-sizing: border-box;
+					border-radius: 20px;
+					font-size: 24px;
+					line-height: 31px;
+					color: #000;
+					font-weight: 600;
+					font-family: "Montserrat";
+					text-align: center;
+					padding: 30px 30px;
+					background-color: var(--primary);
+					outline: 0px;
+					border: 1px solid #000;
+				}
+				.submit-btn{
+					width: 100%;
+					margin-top:40px;
+					outline:0px;
+					border:#000;
+					background:#6bb99c;
+					color:var(--primary);
+				}
+				.delicious-head-text{
+					text-align: center;
+					font-size: 40px;
+					font-weight: 700;
+				}
+				.three-boxes{
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					margin-bottom: 100px;
+				}
+				.inner-one{
+					width: 100%;
+					background-color: white;
+					background-color: var(--secondary);
+					border-radius: 24px;
+					margin-top: 5%;
+				}
+				.meat{
+					margin-top: 40px;
+					margin-bottom: 20px;
+					margin-left: 100px;
+				}
+				.fish{
+					margin-top: 30px;
+					margin-right: 30px;
+					margin-bottom: 20px;
+					margin-left: 80px;
+				}
+				.drinks{
+					margin-top: 0px;
+					margin-bottom: -106px;
+				}
+				h1{
+					font-size: 38px;
+					text-align: center;
+					padding-top: 2%;
+				}
+				.inner-one p{
+					text-align: center;
+					font-size: 22px;
+					font-weight: 700;
+					line-height: 36px;
+					padding-top: 2%;
+				}
+				.button-read-more{
+					width: 150px;
+					margin: 30px auto;
+					background-color: var(--button-primary);
+					padding: 14px 12px;
+					border-radius: 30px;
+					text-align: center;
+					color: var(--text-primary);
+					cursor: pointer;
+					font-size: 18px;
+					font-weight: 700;
+				}
+				.button-read-more:hover{
+					background-color: var(--tursory);
+					color: var(--text-primary);
+				}
+				.care-about-section{
+					background-image: url(section-5bg.png);
+					background-size: 100% 50%;
+					background-repeat: no-repeat;
+					background-position: center bottom;
+					width: 100%;
+					height: 100%;
+					padding-bottom: 100px;
+					margin-top: 200px;
+				}
+				.care-about-subtitle{
+					font-size: 24px;
+					line-height: 40px;
+					color: #6bb99c;
+					font-weight: 700;
+					font-family: "Montserrat";
+					text-align: center;
+				}
+				.care-about-title{
+					font-size: 40px;
+					color: var(--text-tursory);
+					font-weight: 900;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 30px;
+				}
+				.button-three{
+					width: 100px;
+					margin: 0px auto;
+					padding: 10px 20px;
+					background-color: #6bb99c;
+					color: var(--text-primary);
+					text-align: center;
+					font-size: 16px;
+					font-weight: 700;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+				.button-three:hover{
+					background-color: var(--secondary);
+					color: var(--text-secondary);
+				}
+				.our-restaurant-section{
+					background-color: var(--primary);
+					background-image: url(section-6bg.png);
+					background-size: 100% 40%;
+					background-repeat: no-repeat;
+					background-position: center 515px;
+					padding-bottom: 300px;
+					margin-top: -2px;
+					
+				}
+				.our-restaurant-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+				}
+				.our-restaurant-title{
+					font-size: 30px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+				}
+				.our-restaurant-paragaraph{
+					font-size: 20px;
+					line-height: 31px;
+					font-weight: 700;
+					color: var(--text-tursory);
+					padding-top: 10px;
+					text-align: left;
+				}
+				.our-restaurant-section .button-read-more{
+					margin-left: 0px;
+				}
+				.fresh-and-healthy-section{
+					background-color: var(--primary);
+					background-image: url(section-7bg.png);
+					background-size: 100% 45%;
+					background-repeat: no-repeat;
+					background-position: center 532px;
+					padding-bottom: 400px;
+					margin-left: 20px;
+				}
+				.fresh-section{
+					width: 100%;
+					margin-left: -21px;
+				}
+				.fresh-and-health-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 150px;
+					
+				}
+				.fresh-and-health-title{
+					font-size: 45px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+				}
+				.fresh-and-healthy-section .button-three{
+					margin-left: 0px;
+					margin-top: 20px;
+				}
+				.chef-section{
+					background-color: var(--primary);
+				}
+				.chef-bg-white{
+					background-color: #f9f7ef;
+					width: 100%;
+					margin: 0px auto;
+					background-image: url(section-8bg.png);
+					background-size: 100% 35%;
+					background-repeat: no-repeat;
+					background-position: center top;
+					padding-bottom: 60px;
+					border-radius: 60px;
+				}
+				.chef-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 330px;
+					padding-left: 50px;
+				}
+				.chef-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					padding-left: 50px;
+				}
+				.chef-section .our-restaurant-paragaraph{
+					padding-left: 50px;
+				}
+				.chef-section .button-read-more{
+					margin: 20px auto;
+				}
+				.customer-section{
+					background-color: var(--primary);
+				}
+				.customer-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 60px;
+					text-align: center;
+				}
+				.customer-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 60px;
+				}
+				.three-white-section{
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+				}
+				.white-one{
+					width: 100%;
+					background-color: #f9f7ef;
+					border-radius: 50px;
+					display: flex;
+					flex-wrap: wrap;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					margin-bottom: 30px;
+				}
+				.man-img{
+					width: 100%;
+				}
+				.img-width{
+					padding-top: 20px;
+					padding-left: 100px;
+				}
+				.main-info{
+					width: 60%;
+				}
+				.info-title{
+					width: 100%;
+					font-size: 29px;
+					color: #12202f;
+					font-weight: 900;
+					font-family: "Playfair Display";
+					display: flex;
+					flex-wrap: wrap;
+					margin-left: 64px;
+				}
+				.jhon{
+					width: 100%;
+					text-align: center;
+				}
+				.jhon-date{	
+					width: 100%;
+					text-align: center;
+					color: lightpink;
+					font-size: 18px;
+					padding-top: 10px;
+					padding-left: 0px;
+				}
+				.white-one .our-restaurant-paragaraph{
+					font-size: 16px;
+					line-height: 24px;
+					margin-left: 70px;
+					width: 100%;
+					text-align: left;
+				}
+				.star{
+					padding-top: 10px;
+					padding-left: 62px;
+				}
+				.one-white-section{
+					width: 100%;
+				}
+				.one-white-section .white-one{
+					margin: 0px auto 60px;
+				}
+				.form-section{
+					background-image: url(section-10bg.png);
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+					padding-bottom: 50px;
+				}
+				.form-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 100px;
+					text-align: center;
+				}
+				.form-title{
+					font-size: 46px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 60px;
+				}
+				.form{
+					width: 750px;
+					margin: 70px auto;
+				}
+				.name{
+					width: 100%;
+					padding: 20px 8px 20px 19px;
+					border-radius: 50px;
+					background-color: #cbc1a3;
+					border: 1px white  solid;
+					color: #000;
+					font-size: 14px;
+					margin-bottom: 30px;
+					text-align: left;
+				}
+				.message{
+					padding: 20px 8px 60px 19px;
+					border-radius: 30px;
+					background-color: #cbc1a3;
+					border: 1px white  solid;
+					color: #000;
+					font-size: 14px;
+					margin-bottom: 50px;
+					text-align: left;
+				}
+				.form-section .button-three{
+					width: 150px;
+					padding: 14px 20px;
+					font-size: 16px;
+					border: 2px white solid;
+				}
+				footer{
+					background-color: var(--footer);
+				}
+				.footer-three-parts{
+					display: flex;
+					flex-wrap: wrap;
+				}
+				.footer-part-one{
+					width: 100%;
+				}
+				.footer-part-two{
+					width: 100%;
+					margin-top: -16px;
+				}
+				.footer-part-three{
+					width: 100%;
+				}
+				.footer-part-three .footer-head{
+					text-align: left;
+				}
+				.footer-head{
+					font-size: 42px;
+					font-weight: 700;
+					padding-top: 54px;
+					color: var(--footer-text);
+				}
+				.links{
+					font-size: 32px;
+					line-height: 60px;
+					font-weight: 700;
+					padding-top: 20px;
+					padding-bottom: 50px;
+					color: var(--text-tursory);
+				}
+				.footer-form{
+					width: 390px;
+					margin-left: 0px;
+					padding: 16px 12px 16px 20px;
+					background-color: var(--footer);
+					border: 2px var(--text-tursory) solid;
+					border-radius: 25px;
+					color: var(--primary);
+				}
+				.social-media{
+					display: flex;
+					width: 100%;
+					margin-left: 0px;
+				}
+				.follow-us-text{
+					width: 100%;
+					font-size: 35px;
+					font-weight: 700;
+					color: var(--text-tursory);
+					padding-bottom: 154px;
+				}
+				.icons{
+					width: 100%;
+					display: flex;
+					justify-content: space-between;
+				}
+				.facebook-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-512.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.facebook-img:hover{
+					background-image: url(fb_hover.png);
+					background-repeat: no-repeat;
+					background-size: 25px 25px;
+				}
+				.instagram-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn3.iconfinder.com/data/icons/social-media-2253/17/Vector-1-512.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.instagram-img:hover{
+					background-image: url(insta_hover.png);
+					background-repeat: no-repeat;
+					background-size: 28px 28px;
+				}
+				.you-tube-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn0.iconfinder.com/data/icons/social-glyph/30/youtube-480.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.you-tube-img:hover{
+					background-image: url(https://cdn2.iconfinder.com/data/icons/social-media-2102/100/social_media_network-19-512.png);
+					background-repeat: no-repeat;
+					background-size: 30px 30px;
+				}
+				.section-form{
+					display:inline;
+					margin: 0px auto;
+				}
+				.anchor{
+					color: #000;
+					text-decoration: none;
+				}
+				.anchor-one{
+					color: #fff;
+					text-decoration: none;
+				}
+				.subscirbe-flex {
+					display: flex;
+					text-align: center;
+					justify-content:center;
+					
+				}
+				.form{
+					width: 100%;
+				}
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			@media only screen and (min-width: 576px){
+				.container{
+					box-sizing: border-box;
+					max-width: 1380px;
+					width: 100%;
+					padding: 0px 15px;
+				}
+				.header{
+					width: 96%;
+					margin: 0px auto;
+					background-color: #12202f;
+					color: #fff;
+					box-sizing: border-box;
+					border-radius: 25px;
+					margin-top: 5%;
+				}
+				.logo{
+					width: 25%;
+					font-size: 18px;
+					font-weight: 700;
+					margin-left: -8px;
+				}
+				.flex{
+					display: flex;
+					justify-content: space-evenly;
+				}
+				.navigation-bar{
+					width:50%;
+					color: var(--text-primary);
+					font-size: 0px;
+				}
+				.button{
+					width: 25%;
+					text-align: right;
+					font-size: 0px;
+					color: #6bb99c;
+					margin-right: 40px;
+					cursor: pointer;
+				}
+				.eat-drink-section{
+					background-image: url(section-one-bg.png);
+					background-size: 100% 53%;
+					background-repeat: no-repeat;
+					background-position: center -46px;
+				}
+				.head-text{
+					width: 100%;
+					font-size: 51px;
+					color: #12202f;
+					font-weight: 900;
+					font-family: "Playfair Display";
+					padding-top: 54%;
+				}
+				.sub-head-text{
+					font-size: 22px;
+					font-weight: 700;
+					line-height: 40px;
+					color: #12202f;
+					font-family: "Montserrat";
+					padding-top: 2%;
+					padding-bottom: 2%;
+				}
+				.eat-drink-section p{
+					width: 100%;
+					font-size: 17px;
+					font-weight: 700;
+					line-height: 31px;
+					color: #12202f;
+					font-weight: 600;
+					font-family: "Montserrat";
+					text-align: left;
+				}
+				.two-buttons{
+					width: 100%;
+					display: flex;
+				}
+				.button-one{
+					width: 100px;
+					background-color: var(--button-primary);
+					text-align: center;
+					padding: 12px;
+					border-radius: 20px;
+					color: var(--text-primary);
+					font-size: 18px;
+					font-weight: 700;
+					margin-top: 6%;
+					cursor: pointer;
+				}
+				.button-one:hover{
+					background-color: #12202f;
+					color: var(--text-primary);
+				}
+				.button-two{
+					width: 100px;
+					background-color: #ebe3cd;
+					text-align: center;
+					padding: 12px;
+					border-radius: 20px;
+					font-size: 18px;
+					font-weight: 700;
+					margin-top: 6%;
+					cursor: pointer;
+				}
+				.book-table-text{
+					font-size: 16px;
+					font-weight: 700;
+					padding-top: 10%;
+				}
+				.table-back-div{
+					box-sizing:border-box;
+					width:100%;
+					padding:20px 55px 45px;
+					background-color:#f9f7ef;
+					border-radius:30px;
+					display:flex;
+					justify-content:space-between;
+					margin: 50px auto 50px;
+				}
+				.delicious-text{
+					width: 100%;
+					text-align: center;
+					font-size: 20px;
+					font-weight: 700;
+					color: var(--text-secondary);
+				}
+				.appt{
+					width:100%;
+					display:flex;
+					justify-content:space-between;
+				}
+				.date-div{
+					width:100%;
+				}
+				.mail-div{
+					width:100%;
+				}
+				.avaibility{
+					width:100%;
+					cursor: pointer;
+				}
+				label{
+					font-size:21px;
+					color:#000;
+					line-height:42px;
+					font-weight:700;
+					display:block;
+				}
+				input{
+					width: 100%;
+					box-sizing: border-box;
+					border-radius: 20px;
+					font-size: 24px;
+					line-height: 31px;
+					color: #000;
+					font-weight: 600;
+					font-family: "Montserrat";
+					text-align: center;
+					padding: 30px 30px;
+					background-color: var(--primary);
+					outline: 0px;
+					border: 1px solid #000;
+				}
+				.submit-btn{
+					margin-top:40px;
+					outline:0px;
+					border:#000;
+					background:#6bb99c;
+					color:var(--primary);
+				}
+				.delicious-head-text{
+					text-align: center;
+					font-size: 40px;
+					font-weight: 700;
+				}
+				.three-boxes{
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					margin-bottom: 100px;
+				}
+				.inner-one{
+					width: 100%;
+					background-color: white;
+					background-color: var(--secondary);
+					border-radius: 24px;
+					margin-top: 5%;
+				}
+				.meat{
+					margin-top: 40px;
+					margin-bottom: 20px;
+					margin-left: 164px;
+				}
+				.fish{
+					margin-top: 30px;
+					margin-right: 30px;
+					margin-bottom: 20px;
+					margin-left: 160px;
+				}
+				.drinks{
+					margin-top: 0px;
+					margin-bottom: -106px;
+					margin-left: 70px;
+				}
+				h1{
+					font-size: 62px;
+					text-align: center;
+					padding-top: 2%;
+				}
+				.inner-one p{
+					text-align: center;
+					font-size: 38px;
+					font-weight: 500;
+					line-height: 50px;
+					padding-top: 2%;
+				}
+				.button-read-more{
+					width: 150px;
+					margin: 30px auto;
+					background-color: var(--button-primary);
+					padding: 14px 12px;
+					border-radius: 30px;
+					text-align: center;
+					color: var(--text-primary);
+					cursor: pointer;
+					font-size: 18px;
+					font-weight: 700;
+				}
+				.button-read-more:hover{
+					background-color: var(--tursory);
+					color: var(--text-primary);
+				}
+				.care-about-section{
+					background-image: url(section-5bg.png);
+					background-size: 100% 65%;
+					background-repeat: no-repeat;
+					background-position: center bottom;
+					width: 100%;
+					height: 100%;
+					padding-bottom: 210px;
+					margin-top: 100px;
+				}
+				.care-about-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: #6bb99c;
+					font-weight: 700;
+					font-family: "Montserrat";
+					text-align: center;
+				}
+				.care-about-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 900;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 30px;
+				}
+				.button-three{
+					width: 100px;
+					margin: 0px auto;
+					padding: 10px 20px;
+					background-color: #6bb99c;
+					color: var(--text-primary);
+					text-align: center;
+					font-size: 16px;
+					font-weight: 700;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+				.button-three:hover{
+					background-color: var(--secondary);
+					color: var(--text-secondary);
+				}
+				.our-restaurant-section{
+					background-color: var(--primary);
+					background-image: url(section-6bg.png);
+					background-size: 80% 48%;
+					background-repeat: no-repeat;
+					background-position: center 445px;
+					padding-bottom: 543px;
+					margin-top: -6px;
+					
+				}
+				.our-restaurant-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 90px;
+				}
+				.our-restaurant-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+				}
+				.our-restaurant-paragaraph{
+					font-size: 30px;
+					line-height: 36px;
+					font-weight: 500;
+					color: var(--text-tursory);
+					padding-top: 10px;
+					text-align: left;
+				}
+				.our-restaurant-section .button-read-more{
+					margin-left: 0px;
+				}
+				.fresh-and-healthy-section{
+					background-color: var(--primary);
+					background-image: url(section-7bg.png);
+					background-size: 90% 40%;
+					background-repeat: no-repeat;
+					background-position: center 400px;
+					padding-bottom: 494px;
+					margin-left: 20px;
+				}
+				.fresh-section{
+					width: 100%;
+					margin-left: 0px;
+				}
+				.fresh-and-health-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 0px;
+					
+				}
+				.fresh-and-health-title{
+					font-size: 42px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+				}
+				.fresh-and-healthy-section .button-three{
+					margin-left: 0px;
+					margin-top: 20px;
+				}
+				.chef-section{
+					background-color: var(--primary);
+				}
+				.chef-bg-white{
+					background-color: #f9f7ef;
+					width: 100%;
+					margin: 0px auto;
+					background-image: url(section-8bg.png);
+					background-size: 90% 45%;
+					background-repeat: no-repeat;
+					background-position: center top;
+					padding-bottom: 60px;
+					border-radius: 60px;
+				}
+				.chef-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 360px;
+					padding-left: 20px;
+				}
+				.chef-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					padding-left: 20px;
+				}
+				.chef-section .our-restaurant-paragaraph{
+					padding-left: 20px;
+				}
+				.chef-section .button-read-more{
+					margin-left: 20px;
+				}
+				.customer-section{
+					background-color: var(--primary);
+				}
+				.customer-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 100px;
+					text-align: center;
+				}
+				.customer-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 100px;
+				}
+				.three-white-section{
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+				}
+				.white-one{
+					width: 100%;
+					background-color: #f9f7ef;
+					border-radius: 50px;
+					display: flex;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					margin-bottom: 30px;
+				}
+				.man-img{
+					width: 40%;
+				}
+				.img-width{
+					padding-top: 10px;
+					padding-left: 20px;
+				}
+				.main-info{
+					width: 60%;
+					margin-left: -80px;
+				}
+				.info-title{
+					font-size: 29px;
+					color: #12202f;
+					font-weight: 900;
+					font-family: "Playfair Display";
+					display: flex;
+				}
+				.jhon{
+					width: 50%;
+				}
+				.jhon-date{
+					width: 50%;
+					color: lightpink;
+					font-size: 18px;
+					padding-top: 10px;
+					padding-left: 0px;
+				}
+				.white-one .our-restaurant-paragaraph{
+					font-size: 18px;
+					line-height: 24px;
+				}
+				.star{
+					padding-top: 10px;
+				}
+				.one-white-section{
+					width: 100%;
+				}
+				.one-white-section .white-one{
+					margin: 0px auto 60px;
+				}
+				.form-section{
+					background-image: url(section-10bg.png);
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+					padding-bottom: 50px;
+				}
+				.form-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 100px;
+					text-align: center;
+				}
+				.form-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 60px;
+				}
+				.form{
+					width: 750px;
+					margin: 70px auto;
+				}
+				.name{
+					width: 100%;
+					padding: 20px 70px 20px 50px;
+					border-radius: 50px;
+					background-color: #cbc1a3;
+					border: 1px white  solid;
+					color: #000;
+					font-size: 14px;
+					margin-bottom: 30px;
+				}
+				.message{
+					padding: 20px 70px 150px 50px;
+					border-radius: 30px;
+					background-color: #cbc1a3;
+					border: 1px white  solid;
+					color: #000;
+					font-size: 14px;
+					margin-bottom: 50px;
+				}
+				.form-section .button-three{
+					width: 150px;
+					padding: 14px 20px;
+					font-size: 16px;
+					border: 2px white solid;
+				}
+				footer{
+					background-color: var(--footer);
+					padding-bottom: 100px;
+				}
+				.footer-three-parts{
+					display: flex;
+					flex-wrap: wrap;
+				}
+				.footer-part-one{
+					width: 100%;
+				}
+				.footer-part-two{
+					width: 100%;
+				}
+				.footer-part-three{
+					width: 100%;
+				}
+				.footer-part-three .footer-head{
+					text-align: left;
+				}
+				.footer-head{
+					font-size: 42px;
+					font-weight: 700;
+					padding-top: 154px;
+					color: var(--footer-text);
+				}
+				.links{
+					font-size: 32px;
+					line-height: 60px;
+					font-weight: 700;
+					padding-top: 20px;
+					padding-bottom: 50px;
+					color: var(--text-tursory);
+				}
+				.footer-form{
+					margin-left: 0px;
+					padding: 16px 12px 16px 20px;
+					background-color: var(--footer);
+					border: 2px var(--text-tursory) solid;
+					border-radius: 25px;
+					color: var(--footer);
+				}
+				.social-media{
+					display: flex;
+					flex-wrap: wrap;
+					width: 100%;
+					margin-left: 0px;
+				}
+				.follow-us-text{
+					width: 100%;
+					font-size: 35px;
+					font-weight: 700;
+					color: var(--text-tursory);
+					padding-bottom: 154px;
+				}
+				.icons{
+					width: 50%;
+					display: flex;
+					justify-content: space-between;
+				}
+				.facebook-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-512.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.facebook-img:hover{
+					background-image: url(fb_hover.png);
+					background-repeat: no-repeat;
+					background-size: 25px 25px;
+				}
+				.instagram-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn3.iconfinder.com/data/icons/social-media-2253/17/Vector-1-512.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.instagram-img:hover{
+					background-image: url(insta_hover.png);
+					background-repeat: no-repeat;
+					background-size: 28px 28px;
+				}
+				.you-tube-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn0.iconfinder.com/data/icons/social-glyph/30/youtube-480.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.you-tube-img:hover{
+					background-image: url(https://cdn2.iconfinder.com/data/icons/social-media-2102/100/social_media_network-19-512.png);
+					background-repeat: no-repeat;
+					background-size: 30px 30px;
+				}
+				.section-form{
+					display:inline;
+					margin: 0px auto;
+				}
+				.anchor{
+					color: #000;
+					text-decoration: none;
+				}
+				.anchor-one{
+					color: #fff;
+					text-decoration: none;
+				}
+				.subscirbe-flex {
+					display: flex;
+					text-align: center;
+					justify-content:center;
+					
+				}
+				.form{
+					width: 100%;
+				}
+			}
+			
+			
+			
+			
+			
+			@media only screen and (min-width: 768px){
+				.container{
+					box-sizing: border-box;
+					max-width: 1380px;
+					width: 100%;
+					padding: 0px 15px;
+				}
+				.header{
+					width: 96%;
+					margin: 0px auto;
+					background-color: #12202f;
+					color: #fff;
+					box-sizing: border-box;
+					border-radius: 25px;
+					margin-top: 5%;
+				}
+				.logo{
+					width: 25%;
+					font-size: 18px;
+					font-weight: 700;
+					margin-left: -8px;
+				}
+				.flex{
+					display: flex;
+					justify-content: space-evenly;
+				}
+				.navigation-bar{
+					width: 60%;
+					color: var(--text-primary);
+					font-size: 18px;
+				}
+				.button{
+					width: 15%;
+					text-align: right;
+					font-size: 18px;
+					color: #6bb99c;
+					margin-right: 40px;
+					cursor: pointer;
+				}
+				.eat-drink-section{
+					background-image: url(section-one-bg.png);
+					background-size: 100% 53%;
+					background-repeat: no-repeat;
+					background-position: center -52px;
+				}
+				.head-text{
+					width: 100%;
+					font-size: 75px;
+					color: #12202f;
+					font-weight: 900;
+					font-family: "Playfair Display";
+					padding-top: 54%;
+				}
+				.sub-head-text{
+					font-size: 32px;
+					font-weight: 700;
+					line-height: 40px;
+					color: #12202f;
+					font-family: "Montserrat";
+					padding-top: 2%;
+					padding-bottom: 2%;
+				}
+				.eat-drink-section p{
+					width: 100%;
+					font-size: 16px;
+					font-weight: 700;
+					line-height: 31px;
+					color: #12202f;
+					font-weight: 600;
+					font-family: "Montserrat";
+					text-align: left;
+				}
+				.two-buttons{
+					width: 100%;
+					display: flex;
+				}
+				.button-one{
+					width: 100px;
+					background-color: var(--button-primary);
+					text-align: center;
+					padding: 12px;
+					border-radius: 20px;
+					color: var(--text-primary);
+					font-size: 18px;
+					font-weight: 700;
+					margin-top: 6%;
+					cursor: pointer;
+				}
+				.button-one:hover{
+					background-color: #12202f;
+					color: var(--text-primary);
+				}
+				.button-two{
+					width: 100px;
+					background-color: #ebe3cd;
+					text-align: center;
+					padding: 12px;
+					border-radius: 20px;
+					font-size: 18px;
+					font-weight: 700;
+					margin-top: 6%;
+					cursor: pointer;
+				}
+				.book-table-text{
+					font-size: 16px;
+					font-weight: 700;
+					padding-top: 10%;
+				}
+				.table-back-div{
+					box-sizing:border-box;
+					width:100%;
+					padding:20px 55px 45px;
+					background-color:#f9f7ef;
+					border-radius:30px;
+					display:flex;
+					flex-direction:column;
+					justify-content:space-between;
+					margin: 50px auto 50px;
+				}
+				.delicious-text{
+					width: 100%;
+					text-align: center;
+					font-size: 42px;
+					font-weight: 700;
+					color: var(--text-secondary);
+				}
+				.appt{
+					width:100%;
+					display:flex;
+					flex-wrap:wrap;
+					flex-direction:row;
+					justify-content:space-between;
+				}
+				.date-div{
+					width:49%;
+				}
+				.mail-div{
+					width:49%;
+					margin:0px auto;
+				}
+				.avaibility{
+					width:49%;
+					margin:0px auto;
+					cursor: pointer;
+				}
+				label{
+					font-size:21px;
+					color:#000;
+					line-height:42px;
+					font-weight:700;
+					display:block;
+				}
+				input{
+					width: 100%;
+					box-sizing: border-box;
+					border-radius: 20px;
+					font-size: 24px;
+					line-height: 31px;
+					color: #000;
+					font-weight: 600;
+					font-family: "Montserrat";
+					text-align: center;
+					padding: 30px 30px;
+					background-color: var(--primary);
+					outline: 0px;
+					border: 1px solid #000;
+				}
+				.submit-btn{
+					margin-top:40px;
+					outline:0px;
+					border:#000;
+					background:#6bb99c;
+					color:var(--primary);
+				}
+				.delicious-head-text{
+					text-align: center;
+					font-size: 62px;
+					font-weight: 700;
+				}
+				.three-boxes{
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					margin-bottom: 100px;
+				}
+				.inner-one{
+					width: 49%;
+					background-color: white;
+					background-color: var(--secondary);
+					border-radius: 24px;
+					margin-top: 5%;
+				}
+				.meat{
+					margin-top: 40px;
+					margin-bottom: 20px;
+					margin-left: 64px;
+				}
+				.fish{
+					margin-top: 30px;
+					margin-right: 30px;
+					margin-bottom: 20px;
+					margin-left: 80px;
+				}
+				.drinks{
+					margin-top: 0px;
+					margin-bottom: -106px;
+					margin-left: -16px;
+				}
+				h1{
+					font-size: 44px;
+					text-align: center;
+					padding-top: 2%;
+				}
+				.inner-one p{
+					text-align: center;
+					font-size: 24px;
+					font-weight: 500;
+					line-height: 40px;
+					padding-top: 2%;
+				}
+				.button-read-more{
+					width: 150px;
+					margin: 30px auto;
+					background-color: var(--button-primary);
+					padding: 14px 12px;
+					border-radius: 30px;
+					text-align: center;
+					color: var(--text-primary);
+					cursor: pointer;
+					font-size: 18px;
+					font-weight: 700;
+				}
+				.button-read-more:hover{
+					background-color: var(--tursory);
+					color: var(--text-primary);
+				}
+				.care-about-section{
+					background-image: url(section-5bg.png);
+					background-size: 100% 75%;
+					background-repeat: no-repeat;
+					background-position: center bottom;
+					width: 100%;
+					height: 100%;
+					padding-bottom: 210px;
+					margin-top: 100px;
+				}
+				.care-about-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: #6bb99c;
+					font-weight: 700;
+					font-family: "Montserrat";
+					text-align: center;
+				}
+				.care-about-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 900;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 30px;
+				}
+				.button-three{
+					width: 100px;
+					margin: 0px auto;
+					padding: 10px 20px;
+					background-color: #6bb99c;
+					color: var(--text-primary);
+					text-align: center;
+					font-size: 16px;
+					font-weight: 700;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+				.button-three:hover{
+					background-color: var(--secondary);
+					color: var(--text-secondary);
+				}
+				.our-restaurant-section{
+					background-color: var(--primary);
+					background-image: url(section-6bg.png);
+					background-size: 80% 48%;
+					background-repeat: no-repeat;
+					background-position: center 445px;
+					padding-bottom: 543px;
+					margin-top: -6px;
+					
+				}
+				.our-restaurant-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 90px;
+				}
+				.our-restaurant-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+				}
+				.our-restaurant-paragaraph{
+					font-size: 30px;
+					line-height: 36px;
+					font-weight: 500;
+					color: var(--text-tursory);
+					padding-top: 10px;
+					text-align: left;
+				}
+				.our-restaurant-section .button-read-more{
+					margin-left: 0px;
+				}
+				.fresh-and-healthy-section{
+					background-color: var(--primary);
+					background-image: url(section-7bg.png);
+					background-size: 90% 55%;
+					background-repeat: no-repeat;
+					background-position: center 400px;
+					padding-bottom: 494px;
+					margin-left: 20px;
+				}
+				.fresh-section{
+					width: 100%;
+					margin-left: 0px;
+				}
+				.fresh-and-health-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 0px;
+					
+				}
+				.fresh-and-health-title{
+					font-size: 42px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+				}
+				.fresh-and-healthy-section .button-three{
+					margin-left: 0px;
+					margin-top: 20px;
+				}
+				.chef-section{
+					background-color: var(--primary);
+				}
+				.chef-bg-white{
+					background-color: #f9f7ef;
+					width: 100%;
+					margin: 0px auto;
+					background-image: url(section-8bg.png);
+					background-size: 90% 50%;
+					background-repeat: no-repeat;
+					background-position: center top;
+					padding-bottom: 60px;
+					border-radius: 60px;
+				}
+				.chef-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 500px;
+					text-align: center;
+				}
+				.chef-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+				}
+				.chef-section .our-restaurant-paragaraph{
+					text-align: center;
+				}
+				.chef-section .button-read-more{
+					margin: 30px auto;
+				}
+				.customer-section{
+					background-color: var(--primary);
+				}
+				.customer-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 100px;
+					text-align: center;
+				}
+				.customer-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 100px;
+				}
+				.three-white-section{
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+				}
+				.white-one{
+					width: 49%;
+					background-color: #f9f7ef;
+					border-radius: 50px;
+					display: flex;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					margin-bottom: 30px;
+				}
+				.man-img{
+					width: 100%;
+					padding-left: 70px;
+					
+				}
+				.img-width{
+					padding-top: 10px;
+					padding-left: 20px;
+				}
+				.main-info{
+					width: 60%;
+					margin-left: -80px;
+				}
+				.info-title{
+					width: 100%;
+					font-size: 29px;
+					padding-left: 48px;
+					color: #12202f;
+					font-weight: 900;
+					font-family: "Playfair Display";
+					display: flex;
+					flex-wrap: wrap;
+				}
+				.jhon{
+					width: 100%;
+					padding-left: 49px;
+				}
+				.jhon-date{
+					width: 50%;
+					color: lightpink;
+					font-size: 18px;
+					padding-top: 10px;
+					padding-left: 74px;
+				}
+				.white-one .our-restaurant-paragaraph{
+					font-size: 15px;
+					line-height: 24px;
+					padding-left: 68px;
+				}
+				.star{
+					padding-top: 10px;
+					padding-left: 127px;
+				}
+				.one-white-section{
+					width: 100%;
+				}
+				.one-white-section .white-one{
+					margin: 0px auto 60px;
+				}
+				.form-section{
+					background-image: url(section-10bg.png);
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+					padding-bottom: 50px;
+				}
+				.form-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 100px;
+					text-align: center;
+				}
+				.form-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 60px;
+				}
+				.form{
+					width: 750px;
+					margin: 70px auto;
+				}
+				.name{
+					width: 100%;
+					padding: 20px 607px 25px 4px;
+					border-radius: 50px;
+					background-color: #cbc1a3;
+					border: 1px white  solid;
+					color: #000;
+					font-size: 14px;
+					margin-bottom: 30px;
+				}
+				.message{
+					padding: 20px 607px 90px 4px;
+					border-radius: 30px;
+					background-color: #cbc1a3;
+					border: 1px white  solid;
+					color: #000;
+					font-size: 14px;
+					margin-bottom: 50px;
+				}
+				.form-section .button-three{
+					width: 150px;
+					padding: 14px 20px;
+					font-size: 16px;
+					border: 2px white solid;
+				}
+				footer{
+					background-color: var(--footer);
+					padding-bottom: 100px;
+				}
+				.footer-three-parts{
+					display: flex;
+					flex-wrap: wrap;
+				}
+				.footer-part-one{
+					width: 60%;
+				}
+				.footer-part-two{
+					width: 40%;
+				}
+				.footer-part-three{
+					width: 100%;
+				}
+				.footer-part-three .footer-head{
+					text-align: center;
+				}
+				.footer-head{
+					font-size: 42px;
+					font-weight: 700;
+					padding-top: 154px;
+					color: var(--footer-text);
+				}
+				.links{
+					font-size: 32px;
+					line-height: 60px;
+					font-weight: 700;
+					padding-top: 20px;
+					padding-bottom: 50px;
+					color: var(--text-tursory);
+				}
+				.footer-form{
+					margin-left: 170px;
+					padding: 16px 12px 16px 20px;
+					background-color: var(--footer);
+					border: 2px var(--text-tursory) solid;
+					border-radius: 25px;
+					color: var(--footer);
+				}
+				.social-media{
+					display: flex;
+					flex-wrap: wrap;
+					width: 100%;
+					margin-left: 0px;
+				}
+				.follow-us-text{
+					width: 100%;
+					font-size: 35px;
+					font-weight: 700;
+					color: var(--text-tursory);
+					padding-bottom: 50px;
+					text-align: center;
+				}
+				.icons{
+					width: 50%;
+					display: flex;
+					justify-content: space-between;
+					margin: 0px auto;
+				}
+				.facebook-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-512.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.facebook-img:hover{
+					background-image: url(fb_hover.png);
+					background-repeat: no-repeat;
+					background-size: 25px 25px;
+				}
+				.instagram-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn3.iconfinder.com/data/icons/social-media-2253/17/Vector-1-512.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.instagram-img:hover{
+					background-image: url(insta_hover.png);
+					background-repeat: no-repeat;
+					background-size: 28px 28px;
+				}
+				.you-tube-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn0.iconfinder.com/data/icons/social-glyph/30/youtube-480.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.you-tube-img:hover{
+					background-image: url(https://cdn2.iconfinder.com/data/icons/social-media-2102/100/social_media_network-19-512.png);
+					background-repeat: no-repeat;
+					background-size: 30px 30px;
+				}
+				.section-form{
+					display:inline;
+					margin: 0px auto;
+				}
+				.anchor{
+					color: #000;
+					text-decoration: none;
+				}
+				.anchor-one{
+					color: #fff;
+					text-decoration: none;
+				}
+				.subscirbe-flex {
+					display: flex;
+					text-align: center;
+					justify-content:center;
+					
+				}
+				.form{
+					width: 100%;
+				}
+			}
+			
+			@media only screen and (min-width: 1024px){
+				.container{
+					box-sizing: border-box;
+					max-width: 1380px;
+					width: 100%;
+					padding: 0px 15px;
+				}
+				.header{
+					width: 96%;
+					margin: 0px auto;
+					background-color: #12202f;
+					color: #fff;
+					box-sizing: border-box;
+					border-radius: 25px;
+					margin-top: 5%;
+				}
+				.logo{
+					width: 25%;
+					font-size: 18px;
+					font-weight: 700;
+					margin-left: -8px;
+				}
+				.flex{
+					display: flex;
+					justify-content: space-evenly;
+				}
+				.navigation-bar{
+					width: 60%;
+					color: var(--text-primary);
+					font-size: 18px;
+				}
+				.button{
+					width: 15%;
+					text-align: right;
+					font-size: 18px;
+					color: #6bb99c;
+					margin-right: 40px;
+					cursor: pointer;
+				}
+				.eat-drink-section{
+					background-image: url(section-one-bg.png);
+					background-size: 100% 58%;
+					background-repeat: no-repeat;
+					background-position: center -69px;
+				}
+				.head-text{
+					width: 100%;
+					font-size: 75px;
+					color: #12202f;
+					font-weight: 900;
+					font-family: "Playfair Display";
+					padding-top: 54%;
+				}
+				.sub-head-text{
+					font-size: 32px;
+					font-weight: 700;
+					line-height: 40px;
+					color: #12202f;
+					font-family: "Montserrat";
+					padding-top: 2%;
+					padding-bottom: 2%;
+				}
+				.eat-drink-section p{
+					width: 100%;
+					font-size: 16px;
+					font-weight: 700;
+					line-height: 31px;
+					color: #12202f;
+					font-weight: 600;
+					font-family: "Montserrat";
+					text-align: left;
+				}
+				.two-buttons{
+					width: 100%;
+					display: flex;
+				}
+				.button-one{
+					width: 100px;
+					background-color: var(--button-primary);
+					text-align: center;
+					padding: 12px;
+					border-radius: 20px;
+					color: var(--text-primary);
+					font-size: 18px;
+					font-weight: 700;
+					margin-top: 6%;
+					cursor: pointer;
+				}
+				.button-one:hover{
+					background-color: #12202f;
+					color: var(--text-primary);
+				}
+				.button-two{
+					width: 100px;
+					background-color: #ebe3cd;
+					text-align: center;
+					padding: 12px;
+					border-radius: 20px;
+					font-size: 18px;
+					font-weight: 700;
+					margin-top: 6%;
+					cursor: pointer;
+				}
+				.book-table-text{
+					font-size: 16px;
+					font-weight: 700;
+					padding-top: 10%;
+				}
+				.table-back-div{
+					box-sizing:border-box;
+					width:100%;
+					padding:20px 55px 45px;
+					background-color:#f9f7ef;
+					border-radius:30px;
+					display:flex;
+					flex-direction:row;
+					justify-content:space-between;
+					margin: 50px auto 50px;
+				}
+				.delicious-text{
+					width: 100%;
+					text-align: center;
+					font-size: 42px;
+					font-weight: 700;
+					color: var(--text-secondary);
+				}
+				.appt{
+					width:70%;
+					display:flex;
+					flex-direction:row;
+					justify-content:space-between;
+				}
+				.date-div{
+					width:28%;
+					font-size: 18px;
+				}
+				.mail-div{
+					width:30%;
+					margin:0px;
+				}
+				.avaibility{
+					width: 27%;
+					text-align: center;
+					margin:0px;
+					cursor: pointer;
+				}
+				label{
+					font-size:21px;
+					color:#000;
+					line-height:42px;
+					font-weight:700;
+					display:block;
+				}
+				input{
+					width: 100%;
+					box-sizing: border-box;
+					border-radius: 20px;
+					font-size: 16px;
+					line-height: 31px;
+					color: #000;
+					font-weight: 600;
+					font-family: "Montserrat";
+					text-align: center;
+					padding: 22px 30px;
+					background-color: var(--primary);
+					outline: 0px;
+					border: 1px solid #000;
+				}
+				.submit-btn{
+					margin-top:40px;
+					outline:0px;
+					border:#000;
+					background:#6bb99c;
+					color:var(--primary);
+				}
+				.delicious-head-text{
+					text-align: center;
+					font-size: 62px;
+					font-weight: 700;
+				}
+				.three-boxes{
+					width: 100%;
+					display: flex;
+				}
+				.inner-one{
+					width: 32%;
+					background-color: white;
+					background-color: var(--secondary);
+					border-radius: 24px;
+					margin-top: 5%;
+				}
+				.meat{
+					margin-top: 40px;
+					margin-bottom: 20px;
+					margin-left: 64px;
+				}
+				.fish{
+					margin-top: 30px;
+					margin-right: 30px;
+					margin-bottom: 20px;
+					margin-left: 50px;
+				}
+				.drinks{
+					margin-top: 10px;
+					margin-bottom: -106px;
+					margin-left: -82px;
+				}
+				h1{
+					font-size: 44px;
+					text-align: center;
+					padding-top: 2%;
+				}
+				.inner-one p{
+					text-align: center;
+					font-size: 18px;
+					font-weight: 500;
+					line-height: 30px;
+					padding-top: 2%;
+				}
+				.button-read-more{
+					width: 150px;
+					margin: 30px auto;
+					background-color: var(--button-primary);
+					padding: 14px 12px;
+					border-radius: 30px;
+					text-align: center;
+					color: var(--text-primary);
+					cursor: pointer;
+					font-size: 18px;
+					font-weight: 700;
+				}
+				.button-read-more:hover{
+					background-color: var(--tursory);
+					color: var(--text-primary);
+				}
+				.care-about-section{
+					background-image: url(section-5bg.png);
+					background-size: 100% 75%;
+					background-repeat: no-repeat;
+					background-position: center bottom;
+					width: 100%;
+					height: 100%;
+					padding-bottom: 330px;
+					margin-top: 100px;
+				}
+				.care-about-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: #6bb99c;
+					font-weight: 700;
+					font-family: "Montserrat";
+					text-align: center;
+				}
+				.care-about-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 900;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 30px;
+				}
+				.button-three{
+					width: 100px;
+					margin: 0px auto;
+					padding: 10px 20px;
+					background-color: #6bb99c;
+					color: var(--text-primary);
+					text-align: center;
+					font-size: 16px;
+					font-weight: 700;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+				.button-three:hover{
+					background-color: var(--secondary);
+					color: var(--text-secondary);
+				}
+				.our-restaurant-section{
+					background-color: var(--primary);
+					background-image: url(section-6bg.png);
+					background-size: 55% 70%;
+					background-repeat: no-repeat;
+					background-position: 465px 56px;
+					padding-bottom: 148px;
+					margin-top: -6px;
+					
+				}
+				.our-restaurant-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 90px;
+				}
+				.our-restaurant-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+				}
+				.our-restaurant-paragaraph{
+					font-size: 30px;
+					line-height: 36px;
+					font-weight: 500;
+					color: var(--text-tursory);
+					padding-top: 10px;
+					text-align: left;
+				}
+				.our-restaurant-section .button-read-more{
+					margin-left: 0px;
+				}
+				.fresh-and-healthy-section{
+					background-color: var(--primary);
+					background-image: url(section-7bg.png);
+					background-size: 60% 92%;
+					background-repeat: no-repeat;
+					background-position: 414px -30px;
+					padding-bottom: 124px;
+					margin-left: 20px;
+				}
+				.fresh-section{
+					width: 100%;
+					margin-left: 0px;
+				}
+				.fresh-and-health-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 0px;
+					
+				}
+				.fresh-and-health-title{
+					font-size: 42px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+				}
+				.fresh-and-healthy-section .button-three{
+					margin-left: 0px;
+					margin-top: 20px;
+				}
+				.chef-section{
+					background-color: var(--primary);
+				}
+				.chef-bg-white{
+					background-color: #f9f7ef;
+					width: 100%;
+					margin: 0px auto;
+					background-image: url(section-8bg.png);
+					background-size: 90% 50%;
+					background-repeat: no-repeat;
+					background-position: center top;
+					padding-bottom: 60px;
+					border-radius: 60px;
+				}
+				.chef-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 500px;
+					text-align: center;
+				}
+				.chef-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+				}
+				.chef-section .our-restaurant-paragaraph{
+					text-align: center;
+				}
+				.chef-section .button-read-more{
+					margin: 30px auto;
+				}
+				.customer-section{
+					background-color: var(--primary);
+				}
+				.customer-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 100px;
+					text-align: center;
+				}
+				.customer-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 100px;
+				}
+				.three-white-section{
+					width: 100%;
+					display: flex;
+					justify-content: space-between;
+				}
+				.white-one{
+					width: 49%;
+					background-color: #f9f7ef;
+					border-radius: 50px;
+					display: flex;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					margin-bottom: 30px;
+				}
+				.man-img{
+					width: 26%;
+					padding-left: 0px;
+					
+				}
+				.img-width{
+					padding-top: 10px;
+					padding-left: 20px;
+				}
+				.main-info{
+					width: 60%;
+					margin-left: -80px;
+				}
+				.info-title{
+					width: 100%;
+					font-size: 29px;
+					padding-left: 48px;
+					color: #12202f;
+					font-weight: 900;
+					font-family: "Playfair Display";
+					display: flex;
+				}
+				.jhon{
+					width: 60%;
+					padding-left: 0px;
+				}
+				.jhon-date{
+					width: 40%;
+					color: lightpink;
+					font-size: 18px;
+					padding-top: 10px;
+					padding-left: 0px;
+				}
+				.white-one .our-restaurant-paragaraph{
+					font-size: 15px;
+					line-height: 24px;
+					padding-left: 68px;
+				}
+				.star{
+					padding-top: 10px;
+					padding-left: 127px;
+				}
+				.one-white-section{
+					width: 100%;
+				}
+				.one-white-section .white-one{
+					margin: 0px auto 60px;
+				}
+				.form-section{
+					background-image: url(section-10bg.png);
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+					padding-bottom: 50px;
+				}
+				.form-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 100px;
+					text-align: center;
+				}
+				.form-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 60px;
+				}
+				.form{
+					width: 750px;
+					margin: 70px auto;
+				}
+				.name{
+					width: 100%;
+					padding: 20px 607px 25px 4px;
+					border-radius: 50px;
+					background-color: #cbc1a3;
+					border: 1px white  solid;
+					color: #000;
+					font-size: 14px;
+					margin-bottom: 30px;
+				}
+				.message{
+					padding: 20px 607px 90px 4px;
+					border-radius: 30px;
+					background-color: #cbc1a3;
+					border: 1px white  solid;
+					color: #000;
+					font-size: 14px;
+					margin-bottom: 50px;
+				}
+				.form-section .button-three{
+					width: 150px;
+					padding: 14px 20px;
+					font-size: 16px;
+					border: 2px white solid;
+				}
+				footer{
+					background-color: var(--footer);
+					padding-bottom: 100px;
+				}
+				.footer-three-parts{
+					display: flex;
+				}
+				.footer-part-one{
+					width: 32%;
+				}
+				.footer-part-two{
+					width: 32%;
+				}
+				.footer-part-three{
+					width: 35%;
+				}
+				.footer-part-three .footer-head{
+					text-align: center;
+				}
+				.footer-head{
+					font-size: 42px;
+					font-weight: 700;
+					padding-top: 154px;
+					color: var(--footer-text);
+				}
+				.links{
+					font-size: 26px;
+					line-height: 60px;
+					font-weight: 700;
+					padding-top: 20px;
+					padding-bottom: 50px;
+					color: var(--text-tursory);
+				}
+				.footer-form{
+					margin-left: -33px;
+					padding: 16px 12px 16px 20px;
+					background-color: var(--footer);
+					border: 2px var(--text-tursory) solid;
+					border-radius: 25px;
+					color: var(--footer);
+				}
+				.social-media{
+					display: flex;
+					width: 100%;
+					margin-left: 0px;
+				}
+				.follow-us-text{
+					width: 34%;
+					font-size: 20px;
+					font-weight: 700;
+					color: var(--text-tursory);
+					padding-bottom: 50px;
+					text-align: left;
+				}
+				.icons{
+					width: 66%;
+					display: flex;
+					justify-content: space-between;
+					margin: -15px auto;
+				}
+				.facebook-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-512.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.facebook-img:hover{
+					background-image: url(fb_hover.png);
+					background-repeat: no-repeat;
+					background-size: 25px 25px;
+				}
+				.instagram-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn3.iconfinder.com/data/icons/social-media-2253/17/Vector-1-512.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.instagram-img:hover{
+					background-image: url(insta_hover.png);
+					background-repeat: no-repeat;
+					background-size: 28px 28px;
+				}
+				.you-tube-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn0.iconfinder.com/data/icons/social-glyph/30/youtube-480.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.you-tube-img:hover{
+					background-image: url(https://cdn2.iconfinder.com/data/icons/social-media-2102/100/social_media_network-19-512.png);
+					background-repeat: no-repeat;
+					background-size: 30px 30px;
+				}
+				.section-form{
+					display:inline;
+					margin: 0px auto;
+				}
+				.anchor{
+					color: #000;
+					text-decoration: none;
+				}
+				.anchor-one{
+					color: #fff;
+					text-decoration: none;
+				}
+				.subscirbe-flex {
+					display: flex;
+					text-align: center;
+					justify-content:center;
+					
+				}
+				.form{
+					width: 100%;
+				}
+			}
+			
+			
+			@media only screen and (min-width: 1280px){
+				.container{
+					max-width: 1380px;
+					width: 100%;
+					margin: 0px auto;
+				}
+				.header{
+					width: 1240px;
+					margin: 0px auto;
+					background-color: #12202f;
+					color: #fff;
+					padding: 20px;
+					border-radius: 25px;
+					margin-top: 5%;
+				}
+				.logo{
+					width: 25%;
+					font-size: 18px;
+					font-weight: 700;
+					margin-left: 80px;
+				}
+				.flex{
+					display: flex;
+					justify-content: space-evenly;
+				}
+				.navigation-bar{
+					width:50%;
+					color: var(--text-primary);
+					font-size: 18px;
+				}
+				.button{
+					width: 25%;
+					text-align: right;
+					font-size: 18px;
+					color: #6bb99c;
+					margin-right: 40px;
+					cursor: pointer;
+				}
+				.eat-drink-section{
+					background-image: url(section-one-bg.png);
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+				}
+				.head-text{
+					width: 600px;
+					font-size: 81px;
+					color: #12202f;
+					font-weight: 900;
+					font-family: "Playfair Display";
+					padding-top: 5%;
+				}
+				.sub-head-text{
+					font-size: 29px;
+					font-weight: 700;
+					line-height: 40px;
+					color: #12202f;
+					font-family: "Montserrat";
+					padding-top: 2%;
+					padding-bottom: 2%;
+				}
+				.eat-drink-section p{
+					width: 420px;
+					font-size: 17px;
+					font-weight: 700;
+					line-height: 31px;
+					color: #12202f;
+					font-weight: 600;
+					font-family: "Montserrat";
+					text-align: left;
+				}
+				.two-buttons{
+					width: 900px;
+					display: flex;
+				}
+				.button-one{
+					width: 100px;
+					background-color: var(--button-primary);
+					text-align: center;
+					padding: 12px;
+					border-radius: 20px;
+					color: var(--text-primary);
+					font-size: 18px;
+					font-weight: 700;
+					margin-top: 6%;
+					cursor: pointer;
+				}
+				.button-one:hover{
+					background-color: #12202f;
+					color: var(--text-primary);
+				}
+				.button-two{
+					width: 100px;
+					background-color: #ebe3cd;
+					text-align: center;
+					padding: 12px;
+					border-radius: 20px;
+					font-size: 18px;
+					font-weight: 700;
+					margin-top: 6%;
+					cursor: pointer;
+				}
+				.book-table-text{
+					font-size: 16px;
+					font-weight: 700;
+					padding-top: 10%;
+				}
+				.table-back-div{
+					box-sizing:border-box;
+					width:100%;
+					padding:20px 55px 45px;
+					background-color:#f9f7ef;
+					border-radius:30px;
+					display:flex;
+					justify-content:space-between;
+					margin: 50px auto 50px;
+				}
+				.delicious-text{
+					width: 100%;
+					text-align: center;
+					font-size: 20px;
+					font-weight: 700;
+					color: var(--text-secondary);
+				}
+				.appt{
+					width:70%;
+					display:flex;
+					justify-content:space-between;
+				}
+				.date-div{
+					width:28%;
+				}
+				.mail-div{
+					width:36%;
+				}
+				.avaibility{
+					width:25%;
+					cursor: pointer;
+				}
+				label{
+					font-size:21px;
+					color:#000;
+					line-height:42px;
+					font-weight:700;
+					display:block;
+				}
+				input{
+					width: 100%;
+					box-sizing: border-box;
+					border-radius: 20px;
+					font-size: 24px;
+					line-height: 31px;
+					color: #000;
+					font-weight: 600;
+					font-family: "Montserrat";
+					text-align: center;
+					padding: 30px 30px;
+					background-color: var(--primary);
+					outline: 0px;
+					border: 1px solid #000;
+				}
+				.submit-btn{
+					margin-top:40px;
+					outline:0px;
+					border:#000;
+					background:#6bb99c;
+					color:var(--primary);
+				}
+				.delicious-head-text{
+					text-align: center;
+					font-size: 40px;
+					font-weight: 700;
+				}
+				.three-boxes{
+					width: 100%;
+					display: flex;
+					justify-content: space-between;
+					margin-bottom: 100px;
+				}
+				.inner-one{
+					width: 32%;
+					background-color: white;
+					background-color: var(--secondary);
+					border-radius: 24px;
+					margin-top: 5%;
+				}
+				.meat{
+					margin-top: 40px;
+					margin-bottom: 20px;
+					margin-left: 100px;
+				}
+				.fish{
+					margin-top: 30px;
+					margin-right: 30px;
+					margin-bottom: 20px;
+					margin-left: 80px;
+				}
+				.drinks{
+					margin-top: 0px;
+					margin-bottom: -106px;
+				}
+				h1{
+					font-size: 38px;
+					text-align: center;
+					padding-top: 2%;
+				}
+				.inner-one p{
+					text-align: center;
+					font-size: 22px;
+					font-weight: 700;
+					line-height: 36px;
+					padding-top: 2%;
+				}
+				.button-read-more{
+					width: 150px;
+					margin: 30px auto;
+					background-color: var(--button-primary);
+					padding: 14px 12px;
+					border-radius: 30px;
+					text-align: center;
+					color: var(--text-primary);
+					cursor: pointer;
+					font-size: 18px;
+					font-weight: 700;
+				}
+				.button-read-more:hover{
+					background-color: var(--tursory);
+					color: var(--text-primary);
+				}
+				.care-about-section{
+					background-image: url(section-5bg.png);
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+					width: 100%;
+					height: 100%;
+					padding-bottom: 500px;
+					margin-top: 200px;
+				}
+				.care-about-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: #6bb99c;
+					font-weight: 700;
+					font-family: "Montserrat";
+					text-align: center;
+				}
+				.care-about-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 900;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 30px;
+				}
+				.button-three{
+					width: 100px;
+					margin: 0px auto;
+					padding: 10px 20px;
+					background-color: #6bb99c;
+					color: var(--text-primary);
+					text-align: center;
+					font-size: 16px;
+					font-weight: 700;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+				.button-three:hover{
+					background-color: var(--secondary);
+					color: var(--text-secondary);
+				}
+				.our-restaurant-section{
+					background-color: var(--primary);
+					background-image: url(section-6bg.png);
+					background-size: 50% 100%;
+					background-repeat: no-repeat;
+					background-position: 606px center;
+					padding-bottom: 200px;
+					margin-top: 100px;
+					
+				}
+				.our-restaurant-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 150px;
+				}
+				.our-restaurant-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+				}
+				.our-restaurant-paragaraph{
+					font-size: 20px;
+					line-height: 31px;
+					font-weight: 700;
+					color: var(--text-tursory);
+					padding-top: 10px;
+					text-align: left;
+				}
+				.our-restaurant-section .button-read-more{
+					margin-left: 0px;
+				}
+				.fresh-and-healthy-section{
+					background-color: var(--primary);
+					background-image: url(section-7bg.png);
+					background-size: 50% 70%;
+					background-repeat: no-repeat;
+					background-position: center left;
+					padding-bottom: 100px;
+					margin-left: 20px;
+				}
+				.fresh-section{
+					width: 38%;
+					margin-left: 785px;
+				}
+				.fresh-and-health-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 150px;
+					
+				}
+				.fresh-and-health-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+				}
+				.fresh-and-healthy-section .button-three{
+					margin-left: 0px;
+					margin-top: 20px;
+				}
+				.chef-section{
+					background-color: var(--primary);
+				}
+				.chef-bg-white{
+					background-color: #f9f7ef;
+					width: 100%;
+					margin: 0px auto;
+					background-image: url(section-8bg.png);
+					background-size: 60% 100%;
+					background-repeat: no-repeat;
+					background-position: 500px center;
+					padding-bottom: 60px;
+					border-radius: 60px;
+				}
+				.chef-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 100px;
+					padding-left: 50px;
+					text-align: left;
+				}
+				.chef-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					padding-left: 50px;
+					text-align: left;
+				}
+				.chef-section .our-restaurant-paragaraph{
+					padding-left: 50px;
+					text-align: left;
+				}
+				.chef-section .button-read-more{
+					margin-left: 50px;
+				}
+				.customer-section{
+					background-color: var(--primary);
+				}
+				.customer-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 100px;
+					text-align: center;
+				}
+				.customer-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 100px;
+				}
+				.three-white-section{
+					width: 100%;
+					display: flex;
+					justify-content: space-between;
+				}
+				.white-one{
+					width: 500px;
+					background-color: #f9f7ef;
+					border-radius: 50px;
+					display: flex;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					margin-bottom: 30px;
+				}
+				.man-img{
+					width: 30%;
+				}
+				.img-width{
+					padding-top: 20px;
+					padding-left: 20px;
+				}
+				.main-info{
+					width: 60%;
+				}
+				.info-title{
+					font-size: 29px;
+					color: #12202f;
+					font-weight: 900;
+					font-family: "Playfair Display";
+					display: flex;
+				}
+				.jhon{
+					width: 60%;
+				}
+				.jhon-date{
+					color: lightpink;
+					font-size: 18px;
+					padding-top: 10px;
+					padding-left: 0px;
+				}
+				.white-one .our-restaurant-paragaraph{
+					font-size: 18px;
+					line-height: 24px;
+				}
+				.star{
+					padding-top: 10px;
+				}
+				.one-white-section{
+					width: 100%;
+				}
+				.one-white-section .white-one{
+					margin: 0px auto 60px;
+				}
+				.form-section{
+					background-image: url(section-10bg.png);
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+					padding-bottom: 50px;
+				}
+				.form-subtitle{
+					font-size: 29px;
+					line-height: 40px;
+					color: var(--text-secondary);
+					font-weight: 400;
+					font-family: "Montserrat";
+					padding-top: 100px;
+					text-align: center;
+				}
+				.form-title{
+					font-size: 50px;
+					color: var(--text-tursory);
+					font-weight: 700;
+					font-family: "Playfair Display";
+					text-align: center;
+					padding-bottom: 60px;
+				}
+				.form{
+					width: 375px;
+					margin: 70px auto;
+				}
+				.name{
+					width: 1000px;
+					padding: 20px 23px 20px 50px;
+					border-radius: 50px;
+					background-color: #cbc1a3;
+					border: 1px white  solid;
+					color: #000;
+					font-size: 14px;
+					margin-bottom: 30px;
+				}
+				.message{
+					width: 1000px;
+					padding: 20px 23px 150px 50px;
+					border-radius: 30px;
+					background-color: #cbc1a3;
+					border: 1px white  solid;
+					color: #000;
+					font-size: 14px;
+					margin-bottom: 50px;
+				}
+				.form-section .button-three{
+					width: 150px;
+					padding: 14px 20px;
+					font-size: 16px;
+					border: 2px white solid;
+				}
+				footer{
+					background-color: var(--footer);
+				}
+				.footer-three-parts{
+					display: flex;
+				}
+				.footer-part-one{
+					width: 33%;
+				}
+				.footer-part-two{
+					width: 33%;
+				}
+				.footer-part-three{
+					width: 33%;
+				}
+				.footer-part-three .footer-head{
+					text-align: right;
+				}
+				.footer-head{
+					font-size: 42px;
+					font-weight: 700;
+					padding-top: 154px;
+					color: var(--footer-text);
+				}
+				.links{
+					font-size: 32px;
+					line-height: 60px;
+					font-weight: 700;
+					padding-top: 20px;
+					padding-bottom: 50px;
+					color: var(--text-tursory);
+				}
+				.footer-form{
+					width: 400px;
+					margin-left: 0px;
+					padding: 16px 125px 16px 20px;
+					background-color: var(--footer);
+					border: 2px var(--text-tursory) solid;
+					border-radius: 25px;
+					color: var(--footer);
+				}
+				.social-media{
+					display: flex;
+					width: 426px;
+					margin-left: 0px;
+				}
+				.follow-us-text{
+					width: 200px;
+					font-size: 35px;
+					font-weight: 700;
+					color: var(--text-tursory);
+					padding-bottom: 154px;
+				}
+				.icons{
+					width: 200px;
+					display: flex;
+					justify-content: space-between;
+				}
+				.facebook-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-512.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.facebook-img:hover{
+					background-image: url(fb_hover.png);
+					background-repeat: no-repeat;
+					background-size: 25px 25px;
+				}
+				.instagram-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn3.iconfinder.com/data/icons/social-media-2253/17/Vector-1-512.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.instagram-img:hover{
+					background-image: url(insta_hover.png);
+					background-repeat: no-repeat;
+					background-size: 28px 28px;
+				}
+				.you-tube-img{
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					background-color: #fff;
+					background-image: url(https://cdn0.iconfinder.com/data/icons/social-glyph/30/youtube-480.png);
+					background-size: 30px 30px;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				.you-tube-img:hover{
+					background-image: url(https://cdn2.iconfinder.com/data/icons/social-media-2102/100/social_media_network-19-512.png);
+					background-repeat: no-repeat;
+					background-size: 30px 30px;
+				}
+				.section-form{
+					display:inline;
+					margin: 0px auto;
+				}
+				.anchor{
+					color: #000;
+					text-decoration: none;
+				}
+				.anchor-one{
+					color: #fff;
+					text-decoration: none;
+				}
+				.subscirbe-flex {
+					display: flex;
+					text-align: center;
+					justify-content:center;
+					
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -649,7 +3870,7 @@
 							<li><a href="#" class="anchor-one">Contact</a></li>
 						</ul>
 					</nav>
-					<div class="button">
+					<div class="button hamburger">
 						Sign up
 					</div>
 			</div>
@@ -732,7 +3953,7 @@
 				<div class="three-boxes">
 					<div class="inner-one">
 						<div class="dish-one">
-							<img src="dish-one.png" width="350px" height="180px" class="meat" />
+							<img src="meal-one.png" width="200px" height="200px" class="meat" />
 						</div>
 						<h1>
 							Meat
@@ -748,7 +3969,7 @@
 					</div>
 					<div class="inner-one">
 						<div class="dish-one">
-							<img src="dish-two.png" width="240px" height="200px" class="fish" />
+							<img src="dish-two.png" width="200px" height="200px" class="fish" />
 						</div>
 						<h1>
 							Fish
@@ -764,7 +3985,7 @@
 					</div>
 					<div class="inner-one">
 						<div class="dish-one">
-							<img src="dish-three.png" width="420px" height="250px" class="drinks" />
+							<img src="dish-three.png" width="400px" height="350px" class="drinks" />
 						</div>
 						<h1>
 							Drinks
@@ -941,22 +4162,29 @@
 		</section>
 		<section class="form-section">
 			<div class="container">
-				<div class="form-subtitle">
-					Subscirbe
+				<div class="subscirbe-flex">
+					<div>
+						<div class="form-subtitle">
+							Subscirbe
+						</div>
+						<div class="form-title">
+							To Our Newsletter
+						</div>
+						<div class="section-form">
+							<form>
+								<input type="text" placeholder="NAME" class="name"/>
+								<input type="text" placeholder="MAIL" class="name"/>
+								<input type="text" placeholder="MESSAGE" class="message"/>
+							</form>
+						</div>
+						<div class="button-three">
+								SEND MESSAGE
+						</div>
+					</div>
+				
 				</div>
-				<div class="form-title">
-					To Our Newsletter
-				</div>
-				<div class="section-form">
-					<form>
-						<input type="text" placeholder="NAME" class="name"/>
-						<input type="text" placeholder="MAIL" class="name"/>
-						<input type="text" placeholder="MESSAGE" class="message"/>
-					</form>
-				</div>
-				<div class="button-three">
-						SEND MESSAGE
-				</div>
+				
+
 			</div>
 		</section>
 		<footer>
